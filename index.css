@@ -38,7 +38,6 @@ body {
 /* welcome start*/
 .conteiner-welcome {
   background-color: #ede6dd;
-  width: 1280px;
   height: 738px;
   flex-shrink: 0;
   padding: 90px 120px 0 120px;
@@ -77,10 +76,10 @@ h1 {
   line-height: 20px;
 }
 
-.send-form {
+.send-form-one {
   position: absolute;
-  top: 533px;
-  left: 27%;
+  top: 56px;
+  left: 22%;
   width: 179px;
   height: 40px;
   border-radius: 9999px;
@@ -89,7 +88,7 @@ h1 {
   font-size: 14px;
   line-height: 20px;
 }
-.send-form:hover {
+.send-form-one:hover {
   background-color: rgb(159, 159, 159);
   border: none;
 }
@@ -208,7 +207,6 @@ span:hover {
   flex-wrap: wrap;
 }
 h5 {
-  width: 469px;
   color: #1e1928;
   font-family: Roboto;
   font-size: 32px;
@@ -340,12 +338,14 @@ cite {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  position: relative;
 }
 
 /* conteiner-review end*/
 
 /*conteiner-dop_two start*/
 .conteiner-dop_three {
+  position: absolute;
   width: 1200px;
   height: 240px;
   background: #fff;
@@ -358,6 +358,7 @@ cite {
   justify-content: center;
   align-items: center;
   padding: 60px 31px;
+  margin-bottom: 200px;
 }
 .zag {
   text-align: center;
@@ -367,3 +368,101 @@ cite {
   color: rgba(30, 25, 40, 0.64);
 }
 /*conteiner-dop_two end*/
+
+/*conteiner-black start*/
+.conteiner-black {
+  text-align: center;
+  background: #1e1928;
+  padding-top: 246px;
+}
+.zago {
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.form-nomber {
+  position: relative;
+}
+.send-form-two {
+  position: absolute;
+  top: 9px;
+  left: 53%;
+  width: 179px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #1e1928;
+  color: #f4efe9;
+  font-size: 14px;
+  line-height: 20px;
+}
+.send-form-two:hover {
+  background-color: rgb(159, 159, 159);
+  border: none;
+}
+
+.par-black {
+  margin-top: 30px;
+  color: #ede6dd;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 138px;
+}
+/*conteiner-black end*/
+
+/* footer start*/
+.conteiner-footer {
+  height: 260px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 68px 80px;
+}
+.colomn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.zagolovok {
+  color: #1e1928;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.link-footer {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+.link-footer:hover {
+  font-size: 19px;
+  color: #ae1e8d;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-btn {
+  width: 257px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #1e1928;
+  color: #f4efe9;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-btn:hover {
+  background-color: rgb(159, 159, 159);
+  color: #1e1928;
+}
+/* footer end*/
