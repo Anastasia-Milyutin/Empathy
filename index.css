@@ -1072,3 +1072,11 @@ header .nav-link {
     line-height: 15px;
   }
 }
+@media (max-width: 356px) {
+  .conteiner-dop {
+    margin-left: 2px;
+}
+.conteiner-dop_three {
+  margin-left: 2px;
+}
+}
